@@ -69,15 +69,4 @@ def select_op(choice):
 
 while True:
     print("Select operation.")
-    print("1.Add      : +")
-    print("2.Subtract : -")
-    print("3.Multiply : *")
-    print("4.Divide   : /")
-    print("5.Power    : ^")
-    print("6.Remainder: %")
-    print("7.Terminate: #")
-    print("8.Reset    : $")
-    user_input = input("Enter choice(+, -, *, /, ^, %, #, $): ")
-    result = select_op(user_input)
-    if result == 'terminate':
-        break
+   
